@@ -1,0 +1,41 @@
+/* Global styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.intro-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header.pppp  {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h1.pppp {
+  font-size: 2em;
+  color: #333;
+}
+
+section.pppp {
+  margin-bottom: 20px;
+}
+
+h2.pppp  {
+  font-size: 1.5em;
+  color: #333;
+}
+
+p.pppp  {
+  color: #666;
+  line-height: 1.5;
+}
+
+footer.pppp  {
+  text-align: center;
+  color: #999;
+}

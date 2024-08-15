@@ -1,0 +1,52 @@
+/* Header.css */
+.nav ul {
+  display: flex;
+  list-style: none;
+}
+
+.nav li {
+  margin-right: 30px;
+  transition: transform 0.3s;
+}
+
+.nav a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.nav li:hover {
+  transform: scale(1.1);
+}
+
+.nav a:hover {
+  color: rgb(0, 87, 116);
+}
+/**/
+     @media screen and (max-width: 600px) {
+      .nav {
+        display: flex;
+        justify-content: space-around;
+        background-color: #333;
+        color: #fff;
+        padding: 10px 0;
+    }
+
+    .nav ul {
+        list-style-type: none;
+        display: flex;
+        padding: 0;
+        margin: 0;
+    }
+
+    .nav li {
+        margin: 0 10px;
+    }
+        .nav {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .nav li {
+            margin: 5px 0;
+        }
+    }

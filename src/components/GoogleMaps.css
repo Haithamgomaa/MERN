@@ -1,0 +1,15 @@
+/* GoogleMaps.css */
+.map-container {
+  width: 50%;
+  height: 400px;
+  margin: 0 auto; /* Center the map on the page */
+  border: 5px solid #0465b9; /* Add a frame around the map */
+}
+.mapPos{
+
+  width: 50%;
+  padding: 40px;
+  /* padding-bottom: 50px; */
+  /* height: 400px; */
+  margin: 0 auto; /* Center the map on the page */
+}
